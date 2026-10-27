@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberShield | Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">🛡 CyberShield</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="index.html">Home</a><a href="about.html">About</a>
+      <a href="services.html">Services</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-banner">
+    <span class="tag">LET'S CONNECT</span>
+    <h1>Contact <span>Us</span></h1>
+    <p>Have a question or suggestion? Send us a message.</p>
+  </main>
+
+  <section class="section contact-layout">
+    <div>
+      <h2>Get in Touch</h2>
+      <p>Use this demo contact form to try JavaScript form validation.</p>
+      <div class="info-panel">
+        <h3>📧 Contact Form Demo</h3>
+        <p>This educational project demonstrates front-end form handling. It does not send messages to a server.</p>
+      </div>
+    </div>
+
+    <form id="contactForm" class="contact-form">
+      <label for="name">Your Name</label>
+      <input id="name" name="name" type="text" placeholder="Enter your name" required minlength="2">
+
+      <label for="email">Email Address</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message..." required minlength="10"></textarea>
+
+      <button class="btn" type="submit">Send Message →</button>
+      <p id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <footer>© 2026 CyberShield | Made by Devansh Pandey</footer>
+</body>
+</html>
